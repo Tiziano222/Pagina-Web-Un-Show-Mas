@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/Estilos.css">
+    <link rel="icon" type="Icono.png" href="Icono/Icono.png">
+    <title>Introducción Serie</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="Index.html"><img src="Icono/Logo Serie.png" alt="Logo Un Show Mas" width="255" height="95"></a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <nav id="menu_bar" class="">
+            <ul>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="Personajes.html">Personajes</a></li>
+                <li><a href="Reseñas.html">Criticas</a></li>
+                <li><a href="Galeria.html">Galeria</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article class="Principal">
+            <div>
+                <img src="Galeria/Fotos/Foto 1.jpg" alt="Introducción a la Serie">
+            </div>
+        </article>
+        <h1>Introducción de la Serie</h1>
+        <article class="Secundario">
+            <div>
+                <body>
+                <h4>¿Que es Un Show Mas?</h4>
+                    <p>“Un Show Más” o en su idioma original “Regular Show”, fue creada por J. G Quintel y estrenada el 6 de septiembre de 2010.
+                        La serie tuvo como directores creativos a Mike Roth y Jhon Infantino. 
+                        El compositor de la banda sonora de la serie fue Mark Mothersbaugh. 
+                    </p>
+                    <p>
+                        La serie cuenta con un total de 261 episodios divididos en 8 temporadas y una película. En estos capítulos se comienza con un problema que 
+                        necesita una solución, donde al tratar de arreglarlo la cosa se complica y los personajes se tienen que enfrentar a situaciones fantásticas,
+                        sobrenaturales o extrañas que complican aún más su labor.
+                    </p>
+                <h4>¿De que trata la serie?</h4>
+                    <p>
+                        La trama de la serie es de dos amigos de 23 años de edad, un arrendajo azul llamado Mordecai y un mapache llamado Rigby, que se emplean de 
+                        jardineros en un parque y pasan sus días tratando de conseguir dinero y entretenerse por cualquier medio. Esto disgusta mucho a 
+                        su jefe Benson (es una máquina de chicles bastante irritable) junto con sus compañeros de trabajo, Skips (un yeti),
+                        Papaleta (una paleta en forma de caballero cuyo padre, el Sr. Maellard, posee el parque), Musculoso (un hombre verde y gordo),
+                        Fantasmín (un fantasma con una mano en la cabeza) y Thomas (una cabra). El show gira en los problemas ocasionados por Mordecai 
+                        y Rigby, que siempre terminan con resultados bizarros y surrealistas. En la mayoría de los episodios alguien sale gravemente herido (rara vez alguien muere).
+                    </p>
+                </body>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <img src="Galeria/redes/facebook.png" alt="Facebook">
+        <img src="Galeria/redes/instagram.png" alt="Instagram">
+        <img src="Galeria/redes/twitter.png" alt="Twitter">
+        <img src="Galeria/redes/youtube.png" alt="Youtube">
+    </footer>
+    <script type="text/javascript">
+        function myFunction(){
+            var x = document.getElementById("menu_bar");
+            if(x.className === ""){
+                x.className += " responsive";
+            } else{
+                x.className = "";
+            }
+        }
+    </script>
+</body>
+</html>
