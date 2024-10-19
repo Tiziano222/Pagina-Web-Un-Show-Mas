@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    padding-top: 1%;
+    padding-right: 7%;
+    padding-bottom: 1%;
+    padding-left: 7%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 3px green;
+    background-image: url(../Galeria/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-color: #a7e56f;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    margin-top: 1.5%;
+}
+nav ul li{
+    display: inline-block;
+    text-align: right;
+}
+nav ul li a{
+    font-size: 1.2rem;
+    padding-right: 2rem;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    font-weight: 800;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.icon{
+    display: none;
+}
+section{
+    max-width: 1300px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
