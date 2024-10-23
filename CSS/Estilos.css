@@ -8,9 +8,8 @@ body{
     background-image: url(../Galeria/Fondo\ 2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 120% 100%;
 }
-
 header{
     padding-top: 1%;
     padding-right: 7%;
@@ -102,7 +101,35 @@ section{
     padding: 2%;
     text-align: center;
 }
+.Secundario div p{
+    text-align: left;
+}
 .Secundario div a img{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.Secundario1{
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px green ;
+    border-radius: 10px
+}
+.Secundario1 div{
+    width: 33;
+    padding: 2%;
+    text-align: center;
+}
+.Secundario1 div p{
+    text-align: left;
+}
+.Secundario1 div a img{
     width: 100%;
     margin-bottom: 2rem;
 }
@@ -203,7 +230,97 @@ div.pie_contacto span{
 @media(max-width: 480px){
 header{
     align-items: center;
-
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
-    
+header div, header a{
+    flex: 1 0 50%
+}
+header nav{
+    flex-basis: 100%;
+}
+.icon{
+    display: block;
+    padding-right: 0.6rem;
+}
+nav ul{
+    display: none;
+}
+nav.responsive ul{
+    display: block;
+}
+nav.responsive ul li{
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+}
+nav.responsive ul li a{
+    padding-right: 0;
+}
+section{
+    max-width: 480px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Principal{
+    height: 750px;
+    padding: 10%;
+}
+.Principal img{
+    width: 300px;
+}
+.Secundario{
+    margin-top: 10%;
+    display: block;
+}
+.Secundario1{
+    margin: 1%;
+    display: block;
+    padding-left: 18%;
+}
+.Secundario2{
+    margin: 1%;
+    display: block;
+    padding-left: 18%;
+}
+.Secundario div{
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+.Secundario2 div{
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+.Secundario div a img{
+    margin-bottom: 1rem;
+}
+.Secundario2 div a img{
+    margin-bottom: 1rem;
+}
+h1{
+    font-size: 1rem;
+}
+h3{
+    font-size: 1rem;
+}
+footer{
+    height: 80px;
+    justify-content: space-evenly;
+}
+footer img{
+    max-width: 3rem;
+}
+div.pie_contacto{
+    bottom: 55px;
+    right: 2%;
+    width: 260px;
+    width: 95%;
+}
 }
