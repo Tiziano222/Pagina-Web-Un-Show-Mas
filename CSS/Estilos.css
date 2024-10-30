@@ -99,12 +99,37 @@ section{
 .Secundario div{
     width: 33;
     padding: 2%;
-    text-align: center;
+    text-align: left;
 }
 .Secundario div p{
     text-align: left;
 }
 .Secundario div a img{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.IntroPagina{
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px green ;
+    border-radius: 10px
+}
+.IntroPagina div{
+    width: 33;
+    padding: 2%;
+    text-align: center;
+}
+.IntroPagina div p{
+    text-align: left;
+}
+.IntroPagina div a img{
     width: 100%;
     margin-bottom: 2rem;
 }
@@ -173,16 +198,22 @@ h3.Contacto{
     font-size: large;
 }
 footer{
-    display: flex;
+    padding-top: 50px;
+    display: block;
     justify-content: center;
     align-items: center;
     height: 350px;
+    text-align: center;
 }
 footer img{
     max-width: 2.5rem;
     width: 100%;
     height: auto;
     margin-right: .5%;
+}
+footer h3{
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 input{
     width: 100%;
@@ -237,6 +268,12 @@ header{
     top: 0;
     z-index: 1;
 }
+body{
+    background-image: url(../Galeria/Fondo\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 180% 160%;
+}
 header div, header a{
     flex: 1 0 50%
 }
@@ -270,12 +307,28 @@ section{
 .Principal{
     height: 750px;
     padding: 10%;
+    margin-left: 2.5%;
+    max-width: 95%;
+    max-height: 300px;
 }
 .Principal img{
-    width: 300px;
+    width: 280px;
+    height: 280px;
+    padding-top: 2%;
+}
+.Introduccion{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+}
+.IntroPagina{
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .Secundario{
     margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
     display: block;
 }
 .Secundario1{
@@ -287,6 +340,8 @@ section{
     margin: 1%;
     display: block;
     padding-left: 18%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 .Secundario div{
     margin-right: auto;
@@ -318,7 +373,7 @@ footer img{
     max-width: 3rem;
 }
 div.pie_contacto{
-    bottom: 55px;
+    bottom: -25px;
     right: 2%;
     width: 260px;
     width: 95%;
