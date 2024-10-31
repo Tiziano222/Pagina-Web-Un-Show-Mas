@@ -326,7 +326,7 @@ section{
     margin-right: 2%;
 }
 .Secundario{
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 2%;
     margin-right: 2%;
     display: block;
@@ -373,7 +373,7 @@ footer img{
     max-width: 3rem;
 }
 div.pie_contacto{
-    bottom: -25px;
+    bottom: -8px;
     right: 2%;
     width: 260px;
     width: 95%;
