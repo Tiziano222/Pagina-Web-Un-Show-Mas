@@ -5,7 +5,7 @@
 }
 body{ 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url(../Galeria/Fondo\ 2.jpg);
+    background-image: url(../Galeria/Fondo_2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 120% 100%;
@@ -269,7 +269,7 @@ header{
     z-index: 1;
 }
 body{
-    background-image: url(../Galeria/Fondo\ 2.jpg);
+    background-image: url(../Galeria/Fondo_2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 180% 160%;
